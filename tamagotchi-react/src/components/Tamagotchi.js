@@ -131,7 +131,6 @@ export default class Tamagotchi extends Component {
             if (this.state.thirst > 100) {
                 this.state.thirst = 100
             }
-
             if (sumIgnore > 0) {
                 this.say = 'I am die'
                 this.text = ''
