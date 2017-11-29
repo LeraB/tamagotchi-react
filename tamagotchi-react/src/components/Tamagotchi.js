@@ -139,7 +139,6 @@ export default class Tamagotchi extends Component {
                 setTimeout(function () {
                     window.location.reload()
                 }, 5000)
-
             }
         } else {
             this.text = 'Hello, create a new dragon!\n Please enter a name.'
